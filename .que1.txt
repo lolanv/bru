@@ -1,5 +1,5 @@
     Create a function FillData to generate an RXC dimension array of integers where R & C represents row and column count respectively (taken as input from the user). Accept RXC inputs from the user and fill the array.
-    For e.g.: Thee input sequence: 
+    For e.g.: The input sequence: 
     2
     2
     10
@@ -7,8 +7,8 @@
     30
     40
     Should create this matrix of values
-    10       20
-    30       40
+        10       20
+        30       40
     Create an Adaptor function that accepts the following parameters:
         1.A value R representing the count of rows in the 2D array.
         2.A value C representing the count of columns in the 2D array.
