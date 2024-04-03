@@ -1,0 +1,24 @@
+Create a class EvCar with the following attributes
+1.m_car_id which is a string value
+2.m_battery_charging_time which is a int value(indicating time for full charge of battery pack from 0 to 100%)
+3.m_platform which is either PURE_EV or IC_BASED
+4.m_chassis_length which is a float value
+5.m_seat_count which is an integer value
+6.m_top_speed which is an integer value
+
+Create the following functions in Functionalities.cpp file
+1.A function which creates at least 5 instances in a container that stores data contigously. Instances must be created on the heap and must be managed by a smart pointer.
+2.A function to find and return a std::list of first N instances from the input container where N is taken as an input parameter.(Consider invalid N value corner cases approximately).
+3.A function to find and return count of instances whose m_chassis_length is above 2.7f.
+4.A function to return the m_top_speed of the EvCar instance from the input container whose m_car_id is passed as a parameter.
+5.A function to return a container of all instances from the input data which satisfy a predicate (passed as a function pointer or a lamda).
+6.A function to find and return a boolean to indicate whether at least one input data instance has m_platform value as PURE_EV.
+
+NOTES:
+1.Create special member functions as per requirement.
+2.Create necessary parameterized constructors and getter functions.
+3.Overload the << operator for the class.
+4.All corner cases for the functionalities must be handled using std::nullopt and std::optional types.
+5.All data processing operations must be performed using STL algorithms.
+6.Demonstrate functionalitiesby creating a suitable Main.cpp file
+Make different files for class and functionalities i.e.EvCar.h, EvCar.cpp,PlatformType.h, Functionalities.h, Functionalities.cpp and Main.cpp
